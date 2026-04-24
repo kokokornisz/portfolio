@@ -44,7 +44,7 @@ Aby system działał poprawnie, wymagana jest następująca struktura katalogów
 * Skonfigurowana zmienna środowiskowa `AZURE_STORAGE_CONNECTION_STRING` z ciągiem połączeniowym do konta magazynu Azure, posiadającym dostęp do kontenerów `meta-csv` i `photo`.
 
 ## Bezpieczeństwo i regulacje
-Projekt opiera się o rygorystyczne wymagania przetwarzania wrażliwych danych medycznych, wykorzystując mechanizmy zgodne z normą ISO 27001 oraz RODO:
+Projekt opierał się o rygorystyczne wymagania przetwarzania wrażliwych danych medycznych, wykorzystując mechanizmy zgodne z normą ISO 27001 oraz RODO:
 * **SSE (Server-Side Encryption):** Szyfrowanie po stronie serwera w Azure Storage gwarantujące ochronę w chmurze.
 * **Azure Storage Firewall:** Ograniczenie połączeń przychodzących do kontenera tylko dla zaufanych adresów sieciowych.
 * **Prawa dostępu Linux:** Ścisła kontrola uprawnień odczytu i zapisu na maszynie wirtualnej (chmod).
